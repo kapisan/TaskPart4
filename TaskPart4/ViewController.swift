@@ -8,7 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var countButton: UIButton!
+    @IBOutlet weak var clear: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
