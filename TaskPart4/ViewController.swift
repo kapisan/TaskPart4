@@ -8,16 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet private weak var label: UILabel!
 
     var countValue = 0
 
-    @IBAction func countBtnAction(_ sender: UIButton) {
+    @IBAction private func countBtnAction(_ sender: UIButton) {
         countValue += 1
         label.text = String(countValue)
     }
 
-    @IBAction func clearBtnAction(_ sender: UIButton) {
+    @IBAction private func clearBtnAction(_ sender: UIButton) {
         countValue = 0
         label.text = String(countValue)
     }
