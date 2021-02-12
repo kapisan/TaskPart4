@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet private weak var label: UILabel!
 
-    var countValue = 0
+    private var countValue = 0
 
     @IBAction private func countBtnAction(_ sender: UIButton) {
         countValue += 1
